@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import lombok.Data;
 
 @Data
-@ConfigurationProperties(prefix = "escolaQuery", ignoreUnknownFields = true, ignoreInvalidFields = true)
+@ConfigurationProperties(prefix = "escola-query", ignoreUnknownFields = true, ignoreInvalidFields = true)
 public class EscolaQueryProperties {
 
 	private SwaggerProperties swagger;
